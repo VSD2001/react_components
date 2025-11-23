@@ -1,0 +1,203 @@
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+  position: relative;
+
+  .header-logo {
+    font-size: 24px;
+    color: white;
+    a {
+      color: white;
+    }
+    img {
+      height: 50px;
+      display: flex;
+    }
+  }
+  .menu-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    a {
+      color: white;
+      border-bottom: 2px solid transparent;
+      text-decoration: none;
+      transition: var(--trans-delay);
+      &:hover {
+        border-bottom: 2px solid var(--accent);
+      }
+    }
+  }
+  .toggel {
+    color: white;
+    display: flex;
+    align-items: center;
+
+    svg {
+      cursor: pointer;
+      fill: white;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  //--------------------dashboard popup menu--------------------
+  .popup-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: var(--shadow);
+    padding: 10px;
+    .popup-menu {
+      background: rgba(51, 51, 51, 0.563);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+
+      right: 10px;
+      top: 10px;
+      position: absolute;
+      z-index: 11;
+      p {
+        color: white;
+        padding-top: 20px;
+      }
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: white;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .header-parent {
+    display: none;
+  }
+}
+
+//--------------------Mobile Menu---------------//
+.header-parent1 {
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.121);
+  position: relative;
+  display: none;
+  .mobile-menu,
+  .toggel {
+    color: white;
+    display: flex;
+    align-items: center;
+
+    svg {
+      cursor: pointer;
+      fill: white;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .header-logo {
+    font-size: 24px;
+    color: white;
+    a {
+      color: white;
+    }
+    img {
+      height: 50px;
+      display: flex;
+    }
+  }
+  .popup-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: var(--shadow);
+    padding: 10px;
+    .popup-menu2 {
+      background: rgba(51, 51, 51, 0.563);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      height: 98%;
+      left: 0;
+      top: 10px;
+      position: absolute;
+      z-index: 11;
+      p {
+        color: white;
+        padding-top: 20px;
+      }
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: white;
+        }
+      }
+    }
+  }
+  .popup-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100dvh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: var(--shadow);
+    padding: 10px;
+    .popup-menu3 {
+      background: rgba(51, 51, 51, 0.563);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+
+      right: 10px;
+      top: 10px;
+      position: absolute;
+      z-index: 11;
+      p {
+        color: white;
+        padding-top: 20px;
+      }
+      .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        svg {
+          width: 25px;
+          height: 25px;
+          fill: white;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 760px) {
+  .header-parent1 {
+    display: flex;
+  }
+}
