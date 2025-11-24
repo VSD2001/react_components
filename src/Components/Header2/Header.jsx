@@ -6,22 +6,10 @@ import logo from "../../Assets/logo.png";
 
 const Header = () => {
   return (
-    <>
-      <div className="headerparent parent">
-        <div className="headercontainer cont">
-          <div className="logo">
-            <img src={logo} alt="mylogo" />
-          </div>
-          <div className="menu">
-            
-
-          </div>
-          <div className="menuicon"></div>
-
-        </div>
-      </div>
-    </>
-  );
-};
+    <div>
+      
+    </div>
+  )
+}
 
 export default Header;
