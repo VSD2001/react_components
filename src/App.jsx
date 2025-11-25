@@ -12,6 +12,8 @@ function App() {
     <>
     <BrowserRouter>
   <Header />
+  <Header2/>
+
     <Routes>
       
     </Routes>
