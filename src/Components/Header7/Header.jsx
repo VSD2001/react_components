@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./Header22.scss";
+import "./Header.scss";
 // import logo from "../../src/Assets/logo.png";
 import logo from "../../../src/Assets/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GiCrossMark } from "react-icons/gi";
 
-const Header22 = () => {
+const Header = () => {
     const [popup, setpopup] = useState(false);
   return (
     <>
@@ -55,4 +55,4 @@ const Header22 = () => {
   );
 };
 
-export default Header22;
+export default Header;
