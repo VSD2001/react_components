@@ -12,8 +12,10 @@ function App() {
   return (
     <>
     <BrowserRouter>
-  <Header />
+  {/* <Header /> */}
   {/* <Header2/> */}
+  <Header/>
+
 
     <Routes>
       
