@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.scss'
-import Header from './Components/Header4/Header.jsx'
+import Header from './Components/Header5/Header'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
@@ -12,7 +12,7 @@ function App() {
     <>
     <BrowserRouter>
   <Header />
-  <Header2/>
+  {/* <Header2/> */}
 
     <Routes>
       
