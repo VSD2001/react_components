@@ -1,0 +1,106 @@
+.hero {
+  height: 100dvh;
+  width: 100%;
+  position: relative;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .header {
+    // background-color: white;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    display: flex;
+    .logo {
+      img {
+        width: 100px;
+      }
+    }
+    .menu {
+      display: flex;
+      gap: 5px;
+      .symbol {
+        svg {
+          fill: white;
+          font-size: 30px;
+        }
+      }
+      p {
+        color: white;
+        font-size: 30px;
+      }
+    }
+  }
+  .popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      position: absolute;
+      top: 10px;
+      left: 40px;
+      img {
+        width: 100px;
+      }
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 40px;
+      display: flex;
+      cursor: pointer;
+      svg {
+        fill: white;
+        font-size: 30px;
+      }
+      p {
+        color: white;
+        font-size: 30px;
+      }
+    }
+    .options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-top: 4px dotted black;
+
+  a {
+    width: 100%;
+    display: block;
+    border-bottom: 4px dotted black;   
+    padding: 5px 0px;
+  }
+
+  span {
+    font-size: 80px;
+    display: inline-block;
+  }
+
+  .a span {
+    transform: translateX(250px);
+  }
+  .s span {
+    transform: translateX(550px);
+  }
+  .b span {
+    transform: translateX(1000px);
+  }
+  .p span {
+    transform: translateX(600px);
+  }
+}
+
+  }
+}
