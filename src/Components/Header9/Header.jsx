@@ -39,7 +39,6 @@ const Header = () => {
           <div className="options">
             <Link to="/" className="h"><span>HOME</span></Link>
             <Link to="/about" className="a"><span>ABOUT</span></Link>
-
             <Link to="/services" className="s"><span>SERVICES</span></Link>
             <Link to="/blog" className="b"><span>BLOG</span></Link>
             <Link to="/careers" className="p"><span>PORTFOLIO</span></Link>
