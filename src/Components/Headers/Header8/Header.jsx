@@ -3,7 +3,7 @@ import "./header.scss";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 import { MdMenu } from "react-icons/md";
 import { IoClose } from "react-icons/io5";
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.scss";
-// import logo from "../../src/Assets/logo.png";
-import logo from "../../../src/Assets/logo.png";
+
+import logo from "../../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GiCrossMark } from "react-icons/gi";

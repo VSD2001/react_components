@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.scss'
-import Header from './Components/Headers/Header1/Header'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Hero from './Components/Heros/Hero1/Hero'
+import { BrowserRouter , Route, Routes } from 'react-router-dom'
+import Web from './Components/newWeb/Web'
 
 
 
@@ -15,11 +14,12 @@ function App() {
     <BrowserRouter>
   {/* <Header /> */}
   {/* <Header/> */}
-  <Header/>
+  {/* <Header/> */}
+  <Web />
 
 
     <Routes>
-      <Hero />
+      {/* <Route path="/" element={<Hero />} /> */}
     </Routes>
       </BrowserRouter>
     </>

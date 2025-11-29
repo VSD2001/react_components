@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import { SlOptions } from "react-icons/sl";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logo.png";
+import logo from "../../../assets/logo.png";
 import "./header.scss";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";

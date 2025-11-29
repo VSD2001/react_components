@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./header.scss";
 import { Link } from "react-router-dom";
 import { FaPlus } from "react-icons/fa";
-import hero from "../../../assets/hero.jpg";
-import logo1 from "../../../assets/logo1.png";
+import hero from "../../assets/hero";
+import logo1 from "../../assets/logo1.png";
 import { IoClose } from "react-icons/io5";
 
 const Header = () => {

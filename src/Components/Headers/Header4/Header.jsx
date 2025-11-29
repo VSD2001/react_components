@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/logo.png";
+import logo from "../../../assets/logo.png";
 import "./header.scss";
 import { MdMenu } from "react-icons/md";
 import { IoClose } from "react-icons/io5";

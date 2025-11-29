@@ -5,7 +5,7 @@ import { ImCross } from "react-icons/im";
 import { IoMenu } from "react-icons/io5";
 
 import { MdDashboardCustomize } from "react-icons/md";
-import logo from "../../Assets/logo.png";
+import logo from "../../../assets/logo.png";
 import { IoMdMenu } from "react-icons/io";
 
 const Header = () => {

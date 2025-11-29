@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./header.scss";
-import logo from "../../assets/logo.png";
+import logo from "../../../assets/logo.png";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdMenu } from "react-icons/md";
